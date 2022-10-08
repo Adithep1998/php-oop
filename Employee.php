@@ -5,6 +5,8 @@
         private $department;
         private $salary;
 
+        protected $CompanyName = "บริษัท ABC จำกัด";
+
         function __construct($name,$department,$salary){
             $this->name = $name;
             $this->department = $department;
